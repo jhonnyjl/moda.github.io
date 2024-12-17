@@ -1,11 +1,4 @@
-        .contenedor {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 30px; /* Altura de la ventana */
-        }
-
-        .social-icons a {
+.social-icons a {
             margin: 0 10px;
             
             text-decoration: none;
