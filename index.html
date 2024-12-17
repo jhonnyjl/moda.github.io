@@ -3,29 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anfitrionas y Modelos</title>
+    <title>Anfitrionas y modelos</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <meta name="Author" lang="en" content="Jhonny López">
-    <meta name="Descripcion" lang="en" content="web de apoyo a modelos y anfitrionas mujeres">
+    <meta name="Descripcion" lang="en" content="web para apoyo hacia anfitrionas y modelos mujeres">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <style>
-        /*para hacer responsive el form de google*/
-        .iframe-container {
-            position: relative;
-            width: 100%;
-            padding-bottom: 150%; /* Relación de aspecto aproximada */
-            height: 0;
-            overflow: hidden;
-        }
-        .iframe-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: 0;
+        .contenedor {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 30px; /* Altura de la ventana */
         }
     </style>
 </head>
@@ -46,17 +36,31 @@
                 
                 <!-- Video Section -->
                 <div class="video-section text-center">
-                    <h2>Próximamente tu <a href="google.com" target="_blank">Comunidad</a></h2>
+                    <h2>Próximamente tu <a href="https://myaclla.pythonanywhere.com" target="_blank">Comunidad</a></h2>
                     <div>
-                        <p>Cuando se tenga cierta cantidad de usuarias que completaron su solicitud de registro se procederá a la activación del sitio web</p>
+                        <p>Cuando se tenga cierta cantidad de usuarias se procederá con la activación del sitio web</p>
                         <p>El sitio web es totalmente gratuito</p>
                     </div>
+                    <h2>Si deseas un código de activación escribenos a <a href="https://www.facebook.com/mya.myaclla" target="_blank">MyAclla MyA</a></h2>
+                    <h2>Te recomendamos registrarte en nuestro grupo <a href="https://www.facebook.com/groups/myaclla" target="_blank">MyAclla</a></h2>
+                    <br>
+                    <h2>Tu espacio</h2>
+                    <video controls>
+                        <source src="video_pre.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                    <h2>¿Eres anfitriona?</h2>
+                    <video controls>
+                        <source src="video2.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                    <h2>¿Eres modelo?</h2>
+                    <video controls>
+                        <source src="video3.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
                 </div>
 
-                <h2 class="text-center">Solicitud de registro</h2>
-                <div class="iframe-container">
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScKqqP7rhz4YJ-y6XqVKfiGs-SX4bvsh3geRXSQhUVwJUAjPw/viewform?embedded=true">Cargando…</iframe>
-                </div>
             </div>
         </div>
     </div>
@@ -74,6 +78,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="javascript.js"></script>
 
 </body>
 </html>
